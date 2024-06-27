@@ -1,0 +1,90 @@
+# e-Agenda
+
+## Projeto
+
+Desenvolvido durante o curso Fullstack da [Academia do Programador](https://www.academiadoprogramador.net) 2024
+
+---
+## Descrição
+
+José Pedro gosta de participar em eventos, palestras e congressos de tecnologia. E depois de horas de networking é normal ele voltar para casa com vários cartões com contatos de seus novos colegas. É bastante comum ele deixar estes cartões guardados, que podem ser esquecidos no fundo de uma gaveta...
+
+Para isto, será necessário fazer uma gestão de contatos inteligente e JP pretende fazer isso utilizando um sistema.
+
+
+## Funcionalidades
+
+1. O cadastro do **Contato** consiste de:
+	- nome
+	- email
+	- telefone
+	- cargo
+	- empresa
+
+2. O cadastro do **Compromisso** consiste de:
+	- assunto
+	- data
+	- hora de início
+	- hora de término
+	- local (caso presencial)
+	- link (caso remoto)
+	- contato (opcional)
+
+3. O cadastro do **Tarefa** consiste de:
+	- título
+	- prioridade
+	- data de criação
+	- data de conclusão
+	- itens
+	- percentual concluído
+
+	3.1. **Item da Tarefa**
+	- título
+	- concluído (status)
+	- tarefa
+
+**Cadastros da Aula 60**
+
+4. O cadastro do **Categoria** consiste de:
+	- título
+	- despesas
+
+	4.1. Deverá ser possível visualizar todas as **despesas pertencentes a uma categoria**
+
+5. O cadastro de **Despesa** consiste de:
+	- descrição
+	- valor
+	- forma de pagamento
+	- categorias (várias)
+---
+
+## Requisitos
+
+- .NET SDK (recomendado .NET 8.0 ou superior) para compilação e execução do projeto.
+---
+## Como Usar
+
+#### Clone o Repositório
+```
+git clone https://github.com/academia-do-programador/e-agenda-2024.git
+```
+
+#### Navegue até a pasta raiz da solução
+```
+cd e-agenda-2024
+```
+
+#### Restaure as dependências
+```
+dotnet restore
+```
+
+#### Navegue até a pasta do projeto
+```
+cd eAgenda.WinApp
+```
+
+#### Execute o projeto
+```
+dotnet run
+```
